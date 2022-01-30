@@ -1,0 +1,79 @@
+html {
+  background: url("/img/pomodoro-timer.jpg");
+  background-size: cover;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#container {
+  position: relative;
+  height: 309px;
+  width: 707px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  margin: 30 auto;
+}
+
+#pomodoro {
+  position: absolute;
+  left: 250px;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* Minutos */
+.timer {
+  position: absolute;
+  top: -80px;
+  left: 220px;
+
+  color: white;
+  text-shadow: -2px -1px 2px rgba(58, 57, 57, 0.86);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 130px;
+  font-weight: bold;
+
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+/* Buttons */
+.btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid #e7e7e7;
+  border-radius: 12px;
+
+  width: 151px;
+  height: 38px;
+
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #e7e7e7;
+}
+
+.btn:hover {
+  border: 2px solid #ff6961;
+  color: #ff6961;
+}
+
+.btn-start {
+  position: absolute;
+  top: 90px;
+  right: 530px;
+}
+
+.btn-stop {
+  position: absolute;
+  top: 150px;
+  right: 530px;
+}
+
+.btn-reset {
+  position: absolute;
+  top: 210px;
+  right: 530px;
+}
